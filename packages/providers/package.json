@@ -3,17 +3,17 @@
   "browser": {
     "./lib/ipc-provider": "./lib/browser-ipc-provider.js",
     "net": "./lib/browser-net.js",
-    "ws": "./lib/browser-ws.js"
+    "ws": "react-native-websocket"
   },
   "browser.esm": {
     "./lib.esm/ipc-provider": "./lib.esm/browser-ipc-provider.js",
     "net": "./lib.esm/browser-net.js",
-    "ws": "./lib/browser-ws.js"
+    "ws": "react-native-websocket"
   },
   "browser.umd": {
     "./lib/ipc-provider": "./lib/browser-ipc-provider.js",
     "net": "./lib/browser-net.js",
-    "ws": "./lib/browser-ws.js"
+    "ws": "react-native-websocket"
   },
   "dependencies": {
     "@ethersproject/abstract-provider": "^5.0.0",
@@ -31,6 +31,7 @@
     "@ethersproject/strings": "^5.0.0",
     "@ethersproject/transactions": "^5.0.0",
     "@ethersproject/web": "^5.0.0",
+    "react-native-websocket": "^1.0.2",
     "ws": "7.2.3"
   },
   "description": "Ethereum Providers for ethers.",
